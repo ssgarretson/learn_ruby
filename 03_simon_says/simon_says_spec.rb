@@ -77,7 +77,7 @@ describe "Simon says" do
 
   describe "titleize" do
     it "capitalizes a word" do
-      expect(titleize("jaws")).to eq("Jaws")
+      expect(titleize("jaws was ok")).to eq("Jaws Was Ok")
     end
 
     it "capitalizes every word (aka title case)" do
